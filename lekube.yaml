@@ -24,13 +24,7 @@ spec:
         - name: dockersocket
           mountPath: /run/docker.sock
         env:
-        - name: LOGSTOKEN
-          value: xxxxxxxxxxxxxx
-        - name: STATSTOKEN
-          value: xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
-        - name: EVENTSTOKEN
-          value: xxxxxxxxxxxxxx
-        - name: TOKEN
+        - name: LOGENTRIES_TOKEN
           value: xxxxxxxxxx
       volumes:
         - name: dockersocket
